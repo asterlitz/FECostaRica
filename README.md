@@ -1,0 +1,2 @@
+# FECostaRica
+Debug Costa Rica
