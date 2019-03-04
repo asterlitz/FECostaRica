@@ -1,8 +1,0 @@
-alter table Configuracions
-add CarpetaFactura Text
-
-alter table Configuracions
-add CarpetaNotaDeCredito Text
-
-alter table Configuracions
-add CarpetaNotaDeDebito Text
