@@ -1,0 +1,31 @@
+
+Alter table RegistroHistorials
+add TipoDocumento varchar(50);
+
+Alter table RegistroHistorials
+add FechaEmision date;
+Alter table RegistroHistorials
+add NombreEmpresa text;
+Alter table RegistroHistorials
+add TipoIdentificacion varchar(3);
+
+Alter table RegistroHistorials
+add CedulaJuridica varchar(15);
+Alter table RegistroHistorials
+add CorreoElectronico varchar(300);
+Alter table RegistroHistorials
+add InvoiceQbs varchar(50);
+
+Alter table RegistroHistorials
+add NumeroItems integer;
+Alter table RegistroHistorials
+add Total money;
+Alter table RegistroHistorials
+add Moneda varchar(10);
+
+Alter table RegistroHistorials
+add CondicionVenta varchar(200);
+Alter table RegistroHistorials
+add MedioPago varchar(200);
+Alter table RegistroHistorials
+add Estado text;

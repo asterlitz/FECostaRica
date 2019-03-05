@@ -1,0 +1,8 @@
+alter table RegistroHistorials
+add NombreEmpresaEmisor varchar(300)
+
+alter table RegistroHistorials
+add NombreEmpresaReceptor varchar(300)
+
+alter table RegistroHistorials
+drop Column NombreEmpresa 
